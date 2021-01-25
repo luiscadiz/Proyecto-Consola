@@ -1,0 +1,27 @@
+﻿Ejercicio en grupo
+Introducción
+Armar una aplicación de consola donde solicite y ejecute las siguientes opciones:
+1. Nuevo Producto
+2. Borrar Producto
+3. Listar Producto
+4. Buscar Producto
+5. Devolver Precio de Producto
+6. Salir
+El usuario ingresa el numero de opción y se ejecuta la acción solicitada.
+Datos del Producto:
+* Código
+* Descripción
+* Precio
+* Cantidad Stock
+NO ME EDITEN EL ARCHIVO!!!!
+Pasos iniciales
+1. Crear una carpeta para guardar el proyecto
+2. Abrir el Visual Studio y crear una solución llamada TrabajoEnClase01 en esa carpeta y un proyecto de consola llamado App
+   1. En VS Code hacer:
+      1. Abrir ventana Terminal
+      2. Cd “ruta carpeta”
+      3. dotnet new sln -n TrabajoEnClase01
+      4. dotnet new console -o App   
+      5. dotnet sln TrabajoEnClase01.sln add App/App.csproj
+3. Crear un nuevo archivo llamado Producto.cs, para codificar la clase Producto.
+4. El menú principal sí debe estar en la clase Progam, principal del proyecto.
